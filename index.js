@@ -1,4 +1,4 @@
-function numToExcelCol(num, oneBased = false) {
+export function numToExcelCol(num, oneBased = false) {
     if (typeof (num) != "number") {
         console.log('numToExcelCol expected a number');
     }
@@ -33,7 +33,7 @@ function numToExcelCol(num, oneBased = false) {
     return ret;
 }
 
-function excelColtoNum(colname, oneBased = false) {
+export function excelColtoNum(colname, oneBased = false) {
     let total = 0;
     for (let i = 0; i < colname.length; i++) {
         total *= 26; // Multiply the total by 26 for each position to simulate base 26.
