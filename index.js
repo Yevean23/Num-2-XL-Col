@@ -41,23 +41,3 @@ export function excelColtoNum(colname, oneBased = false) {
     }
     return oneBased ? total : total - 1;
 }
-
-/*
-TESTS FOR VERIFICATION OF FUNCTIONALITY
-I WASN'T ABOUT TO INCLUDE JEST AS A DEV DEPENDENCY JUST FOR TESTING PURPOSES.
-
-for (let ir = 0; ir <= 100; ir++) {
-    let ci = numToExcelCol(ir);
-    let b = excelColtoNum(ci);
-    console.log(ir, ci, b)
-}
-
-for (let ir = 0; ir <= 100; ir++) {
-    let ci = numToExcelCol(ir, true);
-    let b = excelColtoNum(ci, true);
-    console.log(ir, ci, b)
-}
-
-*/
-
-module.exports = [numToExcelCol, excelColtoNum]
