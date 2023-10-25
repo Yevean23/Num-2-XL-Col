@@ -2,6 +2,9 @@
 
 Num-2-XL-Col is a lightweight utility package designed to simplify the conversion of numeric values to Excel column names, adhering to Excel's unique column naming convention. In Excel, the letter 'A' is not just the first column but also represents 1 when considering columns beyond the ones digit. This package handles this intricacy effortlessly, saving you valuable time and effort in your software engineering tasks.
 
+## Preview in a React Excel Clone Project
+![image](https://github.com/Yevean23/Num-2-XL-Col/assets/56968596/d51c6a41-1153-43c2-9b5b-1994d9a9c947)
+
 
 ## Features
 
