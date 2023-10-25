@@ -20,7 +20,7 @@ export function numToExcelCol(num, oneBased = false) {
         if (num === 0) {
             return 'A';
         }
-        didFirst = 0;
+        let didFirst = 0;
         while (num > 0) {
             let i = num % 26;
             let n = String.fromCharCode(i + 65 - didFirst);
