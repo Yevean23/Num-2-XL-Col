@@ -16,7 +16,7 @@ Flexible Indexing: Whether you prefer 0-based or 1-based indexing, Num-2-XL-Col 
 ## Usage
 
 ```
-const { numToExcelCol, excelColtoNum } = require('num-2-xl-col');
+import { numToExcelCol, excelColtoNum } from "@yevean23/num-2-xl-col";
 
 console.log(numToExcelCol(0)); // Output: 'A'
 console.log(numToExcelCol(1, oneBased=true)); // Output: 'A'
